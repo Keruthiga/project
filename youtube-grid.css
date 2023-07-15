@@ -1,0 +1,44 @@
+.video{
+	width: 300px;
+	vertical-align: top;
+}
+.video-thumb{
+	width: 300px;
+}
+.video-details{
+	display: grid;
+	grid-template-columns: 40px 1fr;
+}
+.profile{
+	display:inline-block;
+	vertical-align: top;
+}
+.channel-profile{
+	width: 40px;
+	display: inline-block;
+	border-radius: 20px;
+}
+.author-stats{
+	display: inline-block;
+}
+.title{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 16px;
+	width: 250px;
+	line-height: 24px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	}
+.author{
+	font-family: Arial;
+	font-size: 14px;
+	color: gray;
+	margin-bottom: 0;
+}
+.views{
+	font-family: Arial;
+	font-size: 14px;
+	color: gray;
+	margin-top: 5px;
+}

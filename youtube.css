@@ -1,0 +1,71 @@
+.header{
+	height: 55px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.left-section{
+	background-color: lightblue;
+	width: 150px;
+}
+.middle-section{
+	background-color: lightpink;
+	flex: 1;
+	max-width: 500px;
+	margin-left: 70px;
+	margin-right: 35px;
+}
+.right-section{
+	background-color: lightblue;
+	width: 200px;
+
+
+}
+.search-bar{
+	display: block;
+}
+.video-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr ;
+	column-gap: 15px;
+	row-gap: 25px;
+}
+.video{
+	font-family: Arial;		
+}
+.video-thumb{
+	width: 100%;
+}
+.video-details{
+	display: grid;
+	grid-template-columns: 40px 1fr;
+}
+.profile{
+	vertical-align: top;
+}
+.channel-profile{
+	width: 100%;
+	border-radius: 20px;
+}
+.author-stats{
+	margin-left: 10px;
+}
+.title{
+	font-weight: bold;
+	font-size: 16px;	
+	line-height: 24px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	}
+.author{
+	font-size: 14px;
+	color: gray;
+	margin-bottom: 0;
+}
+.views{
+	font-size: 14px;
+	color: gray;
+	margin-top: 5px;
+}
+
+	
